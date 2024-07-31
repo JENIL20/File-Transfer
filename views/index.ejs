@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FILES</title>
+</head>
+
+<body>
+  <form action="/upload" enctype="multipart/form-data" method="POST">
+    <span>Upload Files</span>
+    <input type="file" name="files" multiple /> <br>
+    <!-- <input type="text" name="folder" /> <br> -->
+    <input type="submit" value="submit">
+  </form>
+  <form action="/set" method="POST">
+    <span>SET FOLDER</span>
+    <input type="text" name="folder" /> <br>q
+    <input type="submit" value="submit">
+  </form>
+  <a href="/get">get sevice url
+  </a>
+</body>
+
+</html>
